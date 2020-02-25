@@ -7,7 +7,7 @@ spec:
  - name: size
    image: mhausenblas/simpleservice:0.5.0
    ports:
-   - containerPort: 9877
+   - containerPort: 9876
    resources:
      limits:
        memory: "64Mi"
