@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: poddev
+spec:
+  containers:
+  - name: size
+    image: mhausenblas/simpleservice:0.5.0
+    ports:
+    - containerPort: 9876
