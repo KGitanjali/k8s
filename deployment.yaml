@@ -16,7 +16,7 @@ spec:
       - name: size
         image: mhausenblas/simpleservice:0.5.0
         ports:
-        - containerPort: 9889
+        - containerPort: 9876
         env:
         - name: SIMPLE_SERVIC_VERSION
           value: "0.9"
